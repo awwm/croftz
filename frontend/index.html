@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Croftz Assesment Test</title>
+    <script src="https://cdn.tailwindcss.com?plugins=forms,typography,aspect-ratio,line-clamp"></script>
+</head>
+<body>
+    <header class="main-header">
+        <div class="container max-w-screen-xl mx-auto py-5">
+            <nav class="flex justify-between items-center">
+                <div class="site-name prose">
+                    <a href="/frontend/index.html">Croftz</a>
+                </div>
+                <div class="main-menu">
+                    <a href="/frontend/register.html">Sign up</a>
+                    <a href="/frontend/dashboard">Dashboard</a>
+                </div>
+            </nav>
+        </div>
+    </header>
+
+    <main>
+        <div class="container max-w-screen-xl mx-auto py-5">
+            <div class="w-full text-center">
+                <h1 class="prose">Landing Page</h1>
+            </div>
+
+            <div class="form-wrapper">
+                <form id="myForm">
+                    <label for="email">Email id:</label><br>
+                    <input type="email" id="email" name="email"><br>
+                    <label for="password">Password:</label><br>
+                    <input type="password" id="password" name="password"><br><br>
+                    <button type="button" onclick="login()">login</button>
+                  </form>
+            </div>
+        </div>
+    </main>
+    <footer>
+    </footer>
+
+    <script src="login.js"></script>
+</body>
+</html>
